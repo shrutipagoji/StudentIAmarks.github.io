@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-size: 40px;
+    overflow-x: hidden;
+    color:black;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(103, 68, 156, 0.3),rgba(226, 211, 211, 0.3)),url(../image/write.jpg);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility: ;
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight:100;
+}
+.main-nav li a:hover{
+    color:hwb(225 19% 6%);
+    font-weight: 500;
+}
+
+
+.table{
+    margin-left:130px;
+}
+.search{
+    text-align: center;
+    margin-top:40px;
+   }
+.main-content-header{
+     border-top:2px solid #fff;
+}
+h2{
+    padding:10px;
+    text-shadow:  rgb(218, 211, 211) 0px 0px 6px,   rgb(212, 205, 205) 0px 0px 6px,   rgb(212, 208, 208) 0px 0px 6px;
+}
+h3{
+    font-size: 2.3rem;
+    padding:10px;
+    padding-left: 5rem;
+    color: rgb(214, 253, 108);
+    text-shadow:  #000 0px 0px 6px,   #000 0px 0px 6px,   #000 0px 0px 6px;
+}
+h3:hover{
+    font-size: 2.8rem;
+    color:rgb(81, 65, 225);
+}
+p{
+    font-size: 1.5rem;
+    padding: 20px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-shadow:  rgb(255, 255, 255) 0px 0px 1px,   rgb(255, 255, 255) 0px 0px 1px,   rgb(255, 255, 255) 0px 0px 1px;
+}
